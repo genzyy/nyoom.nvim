@@ -74,5 +74,4 @@
 
 ;; colorscheme
 (set! background :dark)
-(set! guifont "Liga SFMono Nerd Font:h15")
-
+(set! guifont "MonoLisa:h15")

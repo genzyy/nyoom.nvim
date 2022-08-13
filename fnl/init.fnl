@@ -70,6 +70,7 @@
 
 ;; colorscheme
 (require :oxocarbon)
+(colorscheme night-owl)
 
 ;; statusline
 (require :utils.statusline)

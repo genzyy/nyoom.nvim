@@ -140,6 +140,11 @@
                                                      ((. (require :utils.lazy-load)
                                                          :load-on-file-open!) :nvim-colorizer.lua))})
 
+
+(use-package! :ishan9299/nvim-solarized-lua)
+
+(use-package! :haishanh/night-owl.vim)
+
 ;; Notes: orgmode was previously supported, but its quite buggy and not up to part with emacs. I think neorg is the way to go. Feel free to add back org-mode if you want to though!
 (use-package! :nvim-neorg/neorg {:config (load-file neorg) :ft :norg :after :nvim-treesitter})
 

@@ -15,3 +15,6 @@
 (map! [n] "<leader><space>" "<cmd>Telescope find_files<CR>")
 (map! [n] "<leader>bb" "<cmd>Telescope buffers<CR>")
 (map! [n] "<leader>:" "<cmd>Telescope commands<CR>")
+
+;; Custom keybindings
+(map! [n] "<C-n>" "<cmd>NvimTreeToggle<CR>")
